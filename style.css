@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #38b6ff;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #424244;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #38b6ff;
+}
+.navbar h1{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 20px 0 20px;
+}
+.nav-links ul li{
+    text-decoration: none;
+    margin: 0 25px 0 25px;
+
+}
+
+.nav-links ul li a{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+}
+.nav-links ul li:hover{
+     background-color: white;
+    border-radius: 15px;
+}
+.nav-links ul li a:hover{
+    color: #38b6ff;
+    
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url(./Purple\ and\ Blue\ Grandiet\ Modern\ Minimalist\ Digital\ Marketing\ Agency\ Webiste\ Facebook\ Ad.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    width: 50%;
+}
+.home-content h1{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+}
+.home-content h3{
+    font-family: 'Montserrat', sans-serif;
+        font-size:35px;
+}
+.home-content button{
+    margin-top: 10px;
+        color: white;
+        background-color: #38b6ff;
+        padding: 10px;
+        border: none;
+}
+.home-content button:hover{
+    cursor: pointer;
+}
+.testimoial{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimoial h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #38b6ff;
+}
+.blue-underline{
+    width: 30%;
+    color: blue;
+    height: 30px;
+}
+.testimoial .content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 300px;
+        height: 250px;
+        border: 1px solid #38b6ff;
+        border-radius: 20px;
+
+}
+.content-column h2{
+    color: #38b6ff;
+}
+.content-column p{
+    text-align: center;
+
+}
+.content-column:hover{
+    /* background-color: rgb(29, 26, 26); */
+    cursor: pointer;
+}
+/* .content-column p:hover{
+    color: white;
+}
+.content-column h3:hover {
+    color: white;
+} */
+.about-me{
+    width: 100%;
+    height: 100vh;
+    background: url(./Purple\ and\ Blue\ Grandiet\ Modern\ Minimalist\ Digital\ Marketing\ Agency\ Webiste\ Facebook\ Ad.png) no-repeat;
+    background-size: cover;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 40px;
+    margin-top: 60px;
+    width: 80%;
+} */
+.details{
+    width: 70%;
+}
+.about-me h1{
+    
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            color: white;
+            margin-top: 10px;
+            text-decoration: underline;
+            text-decoration-color: black;
+   
+}
+.about-me p{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 27px;
+        color: white;
+        width: 60%;
+}
+.helps{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.helps h1{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        color: #38b6ff;
+        font-weight: 600;
+}
+.help-wrapper{
+    display: flex;
+    margin: 30px;
+    
+}
+.help-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help-content-wrapper h2{
+     font-size: 40px;
+     color: #38b6ff;
+     text-align: center;
+}
+.help-content-wrapper h3{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
+}
+
+.help-content-wrapper p{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        text-align: center;
+}
+.help-content-wrapper button{
+    margin-top: 10px;
+    color: white;
+    background-color: #38b6ff;
+    padding: 10px;
+    border: none;
+}
+.help-content-wrapper button:hover{
+    cursor: pointer;
+}
+.newsletter{
+   width: 80%;
+   height: 100vh;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.newsletter h1{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        color: #38b6ff;
+        font-weight: 600;
+        text-align: center;
+}
+.newsletter p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.news-subscribe input{
+    border-color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.news-subscribe button{
+    margin-top: 10px;
+        color: white;
+        background-color: #38b6ff;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+}
+.news-subscribe button:hover{
+    cursor: pointer;
+}
+.footer-blur-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #38b6ff;
+    display: flex;
+}
+
+/*footer*/
+.footer {
+    background: #38b6ff;
+    height: auto;
+    width: 100%;
+
+    padding-top: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.footer p {
+    max-width: 500px;
+    margin: auto 10px;
+    line-height: 28px;
+    color: white;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: black;
+}
+@media screen and (max-width:1100px) {
+    .nav-links ul li {
+            text-decoration: none;
+            margin: 0 15px 0 15px;
+    
+        }
+                .navbar h1 {
+                    font-family: 'Caveat', cursive;
+                    font-size: 40px;
+                    margin-left: 6px;
+                }
+    .content-column{
+        margin: 10px;
+    }
+}
+@media screen and (max-width:970px){
+.content-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        width: 250px;
+        height: 200px;
+        border: 1px solid #38b6ff;
+        border-radius: 20px;
+
+    }
+        .testimoial {
+            height: 100vh;
+        }
+}
+
